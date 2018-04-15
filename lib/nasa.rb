@@ -8,4 +8,12 @@ class Nasa
 		FeedNasa.new
 	end
 
+	def browse_nasa_Service
+		BrowseNasa.new
+	end
+
+	def lookup_nasa_service
+		LookupNasa.new
+	end
+
 end
