@@ -7,6 +7,20 @@ Nasa API - https://api.nasa.gov/api.html#NeoWS
 
 Create tests with RSpec using Ruby. The tests efficiently check if the api is returning the correct form of data.
 
+## About the API
+
+NeoWs (Near Earth Object Web Service) is a RESTful web service for near earth Asteroid information. With NeoWs a user can: search for Asteroids based on their closest approach date to Earth, lookup a specific Asteroid with its NASA JPL small body id, as well as browse the overall data-set.
+Data-set: All the data is from the NASA JPL Asteroid team (http://neo.jpl.nasa.gov/).
+
+**Neo - Feed**:
+Retrieve a list of Asteroids based on their closest approach date to Earth.
+
+**Neo - Lookup**:
+Lookup a specific Asteroid based on its NASA JPL small body (SPK-ID) ID
+
+**Neo - Browse**:
+Browse the overall Asteroid data-set
+
 ## How to run the tests
 
 1. Clone this repo to your local computer
